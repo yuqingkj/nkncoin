@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo -i <<EOF
-wget http://3.95.133.91:8000/nkn-v2.1.2.tar.gz
-tar -xvf nkn-v2.1.2.tar.gz
+wget http://3.95.133.91:8000/nkn_latest.tar.gz
+tar -xvf nkn_latest.tar.gz
 cd nkn/
 wget http://3.95.133.91:8000/ChainDB_Latest.tar.gz
 tar -xvf ChainDB_Latest.tar.gz
